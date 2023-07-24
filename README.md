@@ -1,7 +1,7 @@
 # yolo-detector
  Building the object detector using YOLO v3 from scratch
 
- This repo follows the tutorial from this [link](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-2/)
+ This repo follows the tutorial from this [link](https://pyimagesearch.com/2021/11/01/training-an-object-detector-from-scratch-in-pytorch/)
 
 
 - The darknet.py file is used to store the network structures for building the YOLO network
