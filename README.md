@@ -1,7 +1,13 @@
 # Tutorial on creating a custom object detector using Pytorch from scratch
-This is a tutorial I learn on how to create a custom object detector using Pytorch from scratch
+This is a tutorial I learn on how to create a custom object detector using Pytorch from scratch using pretrained Faster RCNN
 
-This repo follows the tutorial from this [link](https://pyimagesearch.com/2021/11/01/training-an-object-detector-from-scratch-in-pytorch/)
+This repo follows the tutorial from this [link](https://debuggercafe.com/custom-object-detection-using-pytorch-faster-rcnn/)
+
+In this tutorial, we are going to detect the following object class:
+1. Arduino_Nano
+2. ESP8266
+3. Raspberry_Pi_3
+4. Heltec_ESP32_Lora
 
 ## Main programming language
 - Python
@@ -18,27 +24,11 @@ This repo follows the tutorial from this [link](https://pyimagesearch.com/2021/1
 
 - Python 3.8
 - miniconda python 3.8
-- CUDA toolkit 11.7
-- PyTorch
-- opencv-contrib-python
+- CUDA toolkit 12.0
+- torch 2.0.1
+- torchvision 2.0.2
+- opencv-contrib-python 4.8.0.74
+- imutils 0.5.4
+- tqdm 4.65.0
 
 ## Project structure
-This is the structure of project we are going to develop, slightly changes from the original tutorial
-```
-project_root
-    ├── dataset
-    |   ├── dataset
-    ├── output
-    │   ├── detector.pth
-    │   ├── le.pickle
-    │   ├── plots
-    │   │   └── training.png
-    │   └── test_paths.txt
-    ├── predict.py
-    ├── pyimagesearch
-    │   ├── bbox_regressor.py
-    │   ├── config.py
-    │   ├── custom_tensor_dataset.py
-    │   └── __init__.py
-    └── train.py
-```
