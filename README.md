@@ -5,6 +5,8 @@ This repo follows the tutorial from this [link](https://debuggercafe.com/custom-
 
 **:fire: Recommended source** for studying the deep learning, this includes the tutorial and the source code, so, you can use as a your project booster: [debuggercafe](https://debuggercafe.com/)
 
+**:fire: Computer vision terms** from this [link](https://blog.roboflow.com/glossary/)
+
 In this tutorial, we are going to detect the following object class:
 1. Arduino_Nano
 2. ESP8266
