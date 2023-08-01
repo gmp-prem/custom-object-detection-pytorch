@@ -1,5 +1,5 @@
-# Tutorial on creating a custom object detector using Pytorch from scratch
-This is a tutorial I learn on how to create a custom object detector using Pytorch from scratch using pretrained Faster RCNN
+# Tutorial on creating a custom object detector using Pytorch Faster RCNN
+This is a tutorial I learn on how to create a custom object detector using Pytorch Faster RCNN
 
 This repo follows the tutorial from this [link](https://debuggercafe.com/custom-object-detection-using-pytorch-faster-rcnn/)
 
