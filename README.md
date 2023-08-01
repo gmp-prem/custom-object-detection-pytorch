@@ -17,6 +17,7 @@ In this tutorial, we are going to detect the following object class:
 ## Tutorial outlier
 1. configure software
 2. project structure
+3. creating the pipeline
 
 
 ## Configure software
@@ -32,6 +33,7 @@ In this tutorial, we are going to detect the following object class:
 - opencv-contrib-python 4.8.0.74
 - imutils 0.5.4
 - tqdm 4.65.0
+- [albumentations](https://albumentations.ai/) 1.3.1
 
 ## Project structure
 
@@ -81,3 +83,16 @@ in the project folder will generally contain 5 folders, in each folder
 - **inference ?** : inferencing in deep learning is when you apply the knowledge of the deep learning model that you have trained to infer the result, it is like when the new unknown data (unseen data) is input into your trained nueral network, your network could predict the output in a good accuracy.
 
 `test_prediction` this folder contains the inference image results.
+
+## Creating the pipeline
+
+This section will be about the pipeline of the object detection, the word pipeline means that we create the codes that handle the need for creating the object detection, this will include from the configuration file, code that manages the dataset, code that train the model and output, ... something like this, this is called a pipeline.
+
+in this repo, we will have 5 python scripts, which are
+- config.py
+- datasets.py
+- utils.py
+- model.py
+- engine.py
+
+`config.py` this code 

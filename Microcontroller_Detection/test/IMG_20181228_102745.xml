@@ -1,7 +1,7 @@
 <annotation>
-	<folder>microcontroller object detection smaller</folder>
+	<folder>test</folder>
 	<filename>IMG_20181228_102745.jpg</filename>
-	<path>C:\Users\Gilbert\Desktop\Local_Programming\Datasets\Own\microcontroller object detection smaller\IMG_20181228_102745.jpg</path>
+	<path>/home/hayashi/Documents/GitHub/yolo-detector/Microcontroller_Detection/test/IMG_20181228_102745.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
