@@ -25,6 +25,7 @@ class MicrocontrollerDataset(Dataset):
         # short for-loop version: [thing for thing in list_of_things]
         self.all_images = [image_path.split("/")[-1] for image_path in self.image_paths]
         self.all_images = sorted(self.all_images)
+        print(self.all_images)
 
     def __getitem__(self, idx):
         # capture the image name and the full image path
@@ -98,6 +99,7 @@ class MicrocontrollerDataset(Dataset):
             image_resized = sample["image"]
             target["boxes"] = torch.Tensor(sample["bboxes"])
 
+        print(target)
         return image_resized, target
 
     def __len__(self, ):
